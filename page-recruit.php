@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 会社概要
+Template Name: 採用情報
 */
 get_header();
 ?>
