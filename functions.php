@@ -20,6 +20,16 @@ function my_script_init()
   // jQueryの読み込み
   wp_enqueue_script( 'jquery', '//code.jquery.com/jquery-3.6.1.min.js', "", "1.0.1", true);
   wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/main.js', array( 'jquery' ), '1.0.1', true );
-  wp_enqueue_style( 'style-css', get_template_directory_uri() . '/css/style.css', array(), '1.0.1' );
+  wp_enqueue_style( 'reset.css', get_template_directory_uri() . '/reset.css', array(), '1.0.1' );
+  wp_enqueue_style( 'style.css', get_template_directory_uri() . '/style.css', array(), '1.0.1' );
 }
 add_action('wp_enqueue_scripts', 'my_script_init');
+
+// 検索条件が未入力時にsearch.phpにリダイレクトする
+function set_redirect_template(){
+  if (isset($_GET['s']) && empty($_GET['s'])) {
+    include(TEMPLATEPATH . '/search.php');
+    exit;
+  }
+}
+add_action('template_redirect', 'set_redirect_template');

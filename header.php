@@ -5,6 +5,7 @@
     <title>タイトル</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
+    <link href="reset.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <?php wp_head(); ?>
   </head>
@@ -14,6 +15,7 @@
       bcn_display();
     }
   ?>
+  <?php get_search_form(); ?>
 </div>
   <body <?php body_class(); ?>><?php wp_body_open(); ?>
     <header>ヘッダー</header>
