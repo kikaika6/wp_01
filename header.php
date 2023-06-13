@@ -8,5 +8,12 @@
     <link href="style.css" rel="stylesheet" />
     <?php wp_head(); ?>
   </head>
+  <div class="breadcrumb">
+  <?php
+    if ( function_exists( 'bcn_display' ) ) { 
+      bcn_display();
+    }
+  ?>
+</div>
   <body <?php body_class(); ?>><?php wp_body_open(); ?>
     <header>ヘッダー</header>
