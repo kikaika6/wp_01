@@ -20,11 +20,11 @@
               if ( $the_query->have_posts() ) :
               while ( $the_query->have_posts() ) : $the_query->the_post();
             ?>
-            <li class="">
+            <li class="article">
               <!-- 記事へのリンク -->
               <a href="<?php the_permalink(); ?>" class="">
                 <!-- アイキャッチ -->
-                <div class="">
+                <div class="article-img">
                   <?php the_post_thumbnail('post-thumbnail', array('alt' => the_title_attribute('echo=0'))); ?>
                 </div>
                 <p class="">
@@ -40,7 +40,7 @@
                     echo '<span class="'.$category->slug.'">'.$category[0]->name.'</span>';
                   ?>
                 </div>
-                <h2 class="">
+                <h2 class="article-title">
                   <!-- タイトル -->
                   <?php the_title(); ?>
                 </h2>
