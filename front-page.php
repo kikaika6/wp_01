@@ -44,7 +44,7 @@
                   <!-- タイトル -->
                   <?php the_title(); ?>
                 </h2>
-                <div class="">
+                <div class="" style="overflow-wrap: break-word;">
                   <!-- 本文の抜粋 -->
                   <?php the_excerpt(); ?>
                 </div>
