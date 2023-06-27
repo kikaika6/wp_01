@@ -5,7 +5,7 @@ Template Name: お問い合わせ
 get_header();
 ?>
 <main>
-  <h1>大見出し</h1>
+  <h1>お問い合わせ</h1>
   <section>
     <h2>コンセプト</h2>
     <div>

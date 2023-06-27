@@ -5,7 +5,7 @@ Template Name: 会社概要
 get_header();
 ?>
 <main>
-  <h1>大見出し</h1>
+  <h1>会社概要</h1>
   <section>
     <h2>コンセプト</h2>
     <div>

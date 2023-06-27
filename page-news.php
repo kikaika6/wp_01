@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: 採用情報
+Template Name: NEWS
 */
 get_header();
 ?>
 <main>
-  <h1>採用情報</h1>
+  <h1>NEWS</h1>
   <section>
     <h2>コンセプト</h2>
     <div>

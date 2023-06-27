@@ -1,11 +1,79 @@
 /*
-Theme Name: test WordPress Theme
+Theme Name: Radicalpopgaming
 Theme URI: テーマのURLを記入します
 Author: テーマの作者（組織名）を記入します
 Author URI: テーマの作者のURLを記入します
 Description: ここにテーマの説明文を記入します
 Version: 1.0
 */
+
+a {
+    text-decoration:none; 
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.header {
+    width: 100%;
+    height: 95px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    background-color: #ff4e4ed0;
+    border: none;
+}
+
+.header_in{
+    width: calc(100% - 150px);
+    max-width: 1350px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 22px;
+    border: none;
+}
+
+.headr_logo {
+    position: absolute;
+    left: 0;
+    top: 34px;
+    z-index: 1;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_about {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.nav_news {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.nav_team {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.nav_store {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.nav_sponcer {
+    margin-left: 10px;
+    margin-right: 30px;
+}
 
 .container {
     margin-top: 20px;
