@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: SPONCOR
+Template Name: SPONSOR
 */
 get_header();
 ?>
 <main>
-    <h1>SPONCOR</h1>
+    <h1>SPONSOR</h1>
     <section>
         <h2>コンセプト</h2>
         <div>

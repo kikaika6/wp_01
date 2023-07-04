@@ -1,13 +1,16 @@
 <?php get_header(); ?>
 
 <main>
-    <div class="main_name">
-        <h1 class="main_h1">RadicalPopGaming</h1>
-        <section>
-            <h2>
-                <div class="mian_team">『熱く・楽しく・ゲームをプレイする』</div>
-                <div>地域やコミュニティへ貢献し、esports業界の発展に努めます。趣味を生業に昇華させる市場づくりに努めま。</div>
-            </h2>
+    <div class="main">
+        <section class="main_name">
+            <div class="main_sec">
+                <h1 class="main_h1">RadicalPopGaming</h1>
+                <h2 class="main_h2">
+                    <div class="mian_team">『熱く・楽しく・ゲームをプレイする』</div>
+                    <div>地域やコミュニティへ貢献し、esports業界の発展に努めます。</div>
+                    <div> 趣味を生業に昇華させる市場づくりに努めます。</div>
+                </h2>
+            </div>
         </section>
     </div>
     <div class="test">
