@@ -62,7 +62,7 @@
                         <a href=<?php
                           echo get_page_link( 40 );
                           ?>>
-                            <span>SPONSER</span>
+                            <span>SPONSOR</span>
                         </a>
                     </li>
 

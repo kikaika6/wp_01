@@ -6,9 +6,9 @@
             <div class="main_sec">
                 <h1 class="main_h1">RadicalPopGaming</h1>
                 <h2 class="main_h2">
-                    <div class="mian_team">『熱く・楽しく・ゲームをプレイする』</div>
-                    <div>地域やコミュニティへ貢献し、esports業界の発展に努めます。</div>
-                    <div> 趣味を生業に昇華させる市場づくりに努めます。</div>
+                    <div class="main_team">『熱く・楽しく・ゲームをプレイする』</div>
+                    <div class="main_in1">地域やコミュニティへ貢献し、esports業界の発展に努めます。</div>
+                    <div class="main_in2"> 趣味を生業に昇華させる市場づくりに努めます。</div>
                 </h2>
             </div>
         </section>
