@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-  <head>
-  <meta charset="<?php bloginfo( 'charset' ); ?>" />
+
+<head>
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <title>タイトル</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
     <link href="reset.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <?php wp_head(); ?>
-  </head>
+</head>
 
 
-  <body <?php body_class(); ?>><?php wp_body_open(); ?>
+<body class="body" <?php body_class(); ?>><?php wp_body_open(); ?>
 
     <header class="header">
-      <div class="header_in">
-        <h1 class="header_logo">
-          <a href="/">
-            <span>
-              <img src="<?php echo get_theme_file_uri( "./imgs/star.jpeg" ); ?>" width="41" height="41" alt="RadicalpopGaming">
-            </span>
-          </a>
-        </h1>
-        <div class="header_nav">
-          <ul class="navlist">  
-            <li class="nav_about">
-              <a href=<?php
+        <div class="header_in">
+            <div class="header_nav">
+                <ul class="navlist">
+                    <li class="nav_home">
+                        <a href=<?php
+                      echo get_page_link( 7 );
+                      ?>>
+                            <span>HOME</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_about">
+                        <a href=<?php
                       echo get_page_link( 44 );
                       ?>>
-                <span>ABOUT</span>
-              </a>  
-            </li>
+                            <span>ABOUT</span>
+                        </a>
+                    </li>
 
-            <li class="nav_news">
-              <a href=<?php
+                    <li class="nav_news">
+                        <a href=<?php
                         echo get_page_link( 36 );
                         ?>>
-                  <span>NEWS</span>
-            </li>
+                            <span>NEWS</span>
+                        </a>
+                    </li>
 
-            <li class="nav_team">
-              <a href=<?php
+                    <li class="nav_team">
+                        <a href=<?php
                         echo get_page_link( 38 );
                         ?>>
-                  <span>TEAM</span>
-            </li>
-            
-            <li class="nav_store">
-              <a href=<?php
+                            <span>TEAM</span>
+                        </a>
+                    </li>
+
+                    <li class="nav_store">
+                        <a href=<?php
                           echo get_page_link(  );
                           ?>>
-                    <span>STORE</span>
-            </li>
+                            <span>STORE</span>
+                        </a>
+                    </li>
 
-            <li class="nav_sponcer">
-              <a href=<?php
+                    <li class="nav_sponcer">
+                        <a href=<?php
                           echo get_page_link( 40 );
                           ?>>
-                    <span>SPONCER</span>
-            </li>
+                            <span>SPONSER</span>
+                        </a>
+                    </li>
 
-          </ul>
+                </ul>
+            </div>
         </div>
-      </div>
     </header>
