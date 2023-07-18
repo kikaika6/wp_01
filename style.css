@@ -105,12 +105,10 @@ a:hover {
 }
 
 .article {
-  height: 350px;
-  width: 280px;
+  height: 10800px;
+  width: 1920px;
   margin: 1%;
   background-color: #ffecec;
-  display: flex;
-  flex-direction: column;
 }
 
 .article-img {
@@ -175,4 +173,38 @@ a:hover {
   justify-content: center;
   font-weight: bold;
   font-size: 20px;
+}
+
+.slider {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  margin: 0 auto;
+  display: flex;
+}
+.slider-item {
+  width: 300px;
+  float: left;
+}
+img {
+  width: 100%;
+}
+.slider-inner {
+  width: 300%;
+  animation: slider 10s infinite ease;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-300px);
+  }
+  66% {
+    transform: translateX(-600px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

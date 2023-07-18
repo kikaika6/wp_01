@@ -13,8 +13,9 @@
             </div>
         </section>
     </div>
-    <div class="test">
-        <div class="container">
+
+    <div class="slider">
+        <div class="slider-inner">
             <!-- 記事のループ処理開始 -->
             <?php
               if( wp_is_mobile() ){
@@ -64,9 +65,9 @@
             <p>まだ記事がありません</p>
             <?php endif; ?>
             <?php wp_reset_postdata(); ?>
+
         </div>
     </div>
-    <p>文章が入ります</p>
 </main>
 
 <?php get_footer(); ?>
