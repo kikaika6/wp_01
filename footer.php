@@ -4,7 +4,7 @@
             <ul class="footer_navlist">
                 <li class="nav_company">
                     <a href=<?php
-                      echo get_page_link( 7 );
+                      echo get_page_link( 13 );
                       ?>>
                         <span>COMPANY</span>
                     </a>
@@ -12,7 +12,7 @@
 
                 <li class="nav_recruit">
                     <a href=<?php
-                      echo get_page_link( 44 );
+                      echo get_page_link( 15 );
                       ?>>
                         <span>RECRUIT</span>
                     </a>
@@ -20,7 +20,7 @@
 
                 <li class="nav_contact">
                     <a href=<?php
-                        echo get_page_link( 36 );
+                        echo get_page_link( 11 );
                         ?>>
                         <span>CONTACT</span>
                     </a>
